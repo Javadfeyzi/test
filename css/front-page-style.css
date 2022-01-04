@@ -1,14 +1,14 @@
 @font-face {
-    font-family: vazir-light;
-    src: url("/font/Vazir-Light.woff") format('woff');
+    font-family: yekan;
+    src: url("/font/Yekan.woff") format('woff');
     font-weight: normal;
 }
-@font-face {
-    font-family: vazir-m;
-    src: url("/font/Vazir-Medium.woff") format('woff');
+* {
+    box-sizing: border-box;
+
 }
 body{
-    font-family: vazir-light;
+    font-family: yekan;
 }   
 .container-fluid{
     max-width: 1220px;
@@ -75,4 +75,23 @@ a:hover{
 .navbar{
     height: 40px;
     margin-right: 27px;
+}
+nav .nav-link {
+    margin-left: 14px;
+    font-Size: 14px;
+}
+.card-width{
+    width: 18rem;
+}
+.color-text{
+    color:#007bff;
+}
+.px-3{
+    font-size: 15px;
+}
+.card{
+    border-style: none ;
+}
+.card-img{
+    max-width: 100%;
 }

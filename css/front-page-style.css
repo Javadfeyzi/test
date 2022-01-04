@@ -1,0 +1,78 @@
+@font-face {
+    font-family: vazir-light;
+    src: url("/font/Vazir-Light.woff") format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: vazir-m;
+    src: url("/font/Vazir-Medium.woff") format('woff');
+}
+body{
+    font-family: vazir-light;
+}   
+.container-fluid{
+    max-width: 1220px;
+}
+a:hover{
+    text-decoration: none;
+}
+#head-tools{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#head-tools ul{
+    margin-bottom: 10px;
+}
+
+#head-tools ul a{
+    color: #777;
+    text-decoration: none;
+}
+
+#head-tools ul a:hover{
+    color: red;
+}
+#head-tools ul i{
+    margin-left: 8px;
+}
+#head-tools ul li{
+    margin-left: 40px;
+}
+#basket{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#basket a{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#basket .basket-icon{
+    background-color: #6c6;
+    padding: 5px 15px;
+}
+#basket .basket-text{
+    background-color: #4b5;
+    padding: 5px 15px;
+}
+#search{
+    width: 440px;
+    margin-top: 6px;
+}
+#logo img{
+    padding-top: 27px;
+    padding-bottom:27px;
+    padding-right: 222px;
+}
+.navbar{
+    height: 40px;
+    margin-right: 27px;
+}

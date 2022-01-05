@@ -95,3 +95,20 @@ nav .nav-link {
 .card-img{
     max-width: 100%;
 }
+.media img{
+    margin-top: 40px;
+    margin-right: 15px;
+}
+.media-body h6{
+    position: relative;
+    bottom: 33px;
+    right: 79px;
+    font-size: 14px;
+    max-width: 17%;
+}
+.text-muted{
+    position: relative;
+    bottom: 20px;
+    right: 99px;
+    font-size: 12px;
+}
